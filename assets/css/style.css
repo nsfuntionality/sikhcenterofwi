@@ -1,0 +1,35 @@
+:root {
+  --nishan-orange: #FF6F00;
+  --khalsa-blue: #03254C;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--khalsa-blue) !important;
+}
+
+.banner {
+  background-image: url('assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 20px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.btn-donate {
+  background: linear-gradient(90deg,var(--nishan-orange), #ff9800);
+  border: none;
+  color: white;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.footer {
+  background: var(--khalsa-blue);
+  color: white;
+  padding: 18px 0;
+}
+
